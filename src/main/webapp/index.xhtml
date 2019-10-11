@@ -35,7 +35,7 @@
 		</p:layoutUnit>
 
 		<p:layoutUnit position="west" size="300">
-			<h:outputText value="Left content" />
+			<h:outputText value="Categories" />
 			<p:panel>
 				<h:form>
 					<p:tree id="tree" value="#{categoriesController.root}" var="node"
@@ -54,7 +54,7 @@
 		</p:layoutUnit>
 
 		<p:layoutUnit position="center">
-			<h:outputText value="Center Content" />
+			<h:outputText value="Venue List" />
 			<p:panel id="venuetable">
 				<h:form id="venuetableform">
 					#{basicBean.loadResult()}
@@ -63,9 +63,7 @@
 								 selection="#{basicBean.selectedVenue}" selectionMode="single">
 
 						<p:ajax event="rowSelect" update=":venuetableform:display"
-								oncomplete="venueDialog.show()" />
-
-						<f:facet name="header">Venue List</f:facet>
+								oncomplete="PF('venueDialog').show();" />
 
 						<p:column headerText="Name" sortBy="name" filterBy="name" id="titlename">
 							#{venue.name}
