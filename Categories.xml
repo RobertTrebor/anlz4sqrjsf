@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <mainCategory ID="4d4b7104d754a06370d81259">
+    Arts &amp; Entertainment
+    <subCategory ID="56aa371be4b08b9a8d5734db">Amphitheater</subCategory>
+    <subCategory ID="4fceea171983d5d06c3e9823">Aquarium</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e1931735">Arcade</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e2931735">Art Gallery</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e4931735">Bowling Alley</subCategory>
+    <subCategory ID="4bf58dd8d48988d17c941735">Casino</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79e7">Circus</subCategory>
+    <subCategory ID="4bf58dd8d48988d18e941735">Comedy Club</subCategory>
+    <subCategory ID="5032792091d4c4b30a586d5c">Concert Hall</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79ef">Country Dance Club</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79e8">Disc Golf</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573532">Exhibit</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f1931735">General Entertainment</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79ea">Go Kart Track</subCategory>
+    <subCategory ID="4deefb944765f83613cdba6e">Historic Site</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4bb">Karaoke Box</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79e6">Laser Tag</subCategory>
+    <subCategory ID="5642206c498e4bfca532186c">Memorial Site</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79eb">Mini Golf</subCategory>
+    <subCategory ID="4bf58dd8d48988d17f941735">
+      Movie Theater
+      <subSubCategory ID="56aa371be4b08b9a8d5734de">Drive-in Theater</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d17e941735">Indie Movie Theater</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d180941735">Multiplex</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d181941735">
+      Museum
+      <subSubCategory ID="4bf58dd8d48988d18f941735">Art Museum</subSubCategory>
+      <subSubCategory ID="559acbe0498e472f1a53fa23">Erotic Museum</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d190941735">History Museum</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d192941735">Planetarium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d191941735">Science Museum</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1e5931735">
+      Music Venue
+      <subSubCategory ID="4bf58dd8d48988d1e7931735">Jazz Club</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e8931735">Piano Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e9931735">Rock Club</subSubCategory>
+    </subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4b8">Pachinko Parlor</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f2931735">
+      Performing Arts Venue
+      <subSubCategory ID="4bf58dd8d48988d134941735">Dance Studio</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d135941735">Indie Theater</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d136941735">Opera House</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d137941735">Theater</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1e3931735">Pool Hall</subCategory>
+    <subCategory ID="507c8c4091d498d9fc8c67a9">
+      Public Art
+      <subSubCategory ID="52e81612bcbc57f1066b79ed">Outdoor Sculpture</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b79ee">Street Art</subSubCategory>
+    </subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573514">Racecourse</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f4931735">Racetrack</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79e9">Roller Rink</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79ec">Salsa Club</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734f9">Samba School</subCategory>
+    <subCategory ID="4bf58dd8d48988d184941735">
+      Stadium
+      <subSubCategory ID="4bf58dd8d48988d18c941735">Baseball Stadium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d18b941735">Basketball Stadium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d18a941735">Cricket Ground</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d189941735">Football Stadium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d185941735">Hockey Arena</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573556">Rugby Stadium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d188941735">Soccer Stadium</subSubCategory>
+      <subSubCategory ID="4e39a891bd410d7aed40cbc2">Tennis Stadium</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d187941735">Track Stadium</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d182941735">
+      Theme Park
+      <subSubCategory ID="5109983191d435c0d71c2bb1">Theme Park Ride / Attraction</subSubCategory>
+    </subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573520">Tour Provider</subCategory>
+    <subCategory ID="4bf58dd8d48988d193941735">Water Park</subCategory>
+    <subCategory ID="4bf58dd8d48988d17b941735">
+      Zoo
+      <subSubCategory ID="58daa1558bbb0b01f18ec1fd">Zoo Exhibit</subSubCategory>
+    </subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06372d81259">
+    College &amp; University
+    <subCategory ID="4bf58dd8d48988d198941735">
+      College Academic Building
+      <subSubCategory ID="4bf58dd8d48988d199941735">College Arts Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19a941735">College Communications Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19e941735">College Engineering Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19d941735">College History Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19c941735">College Math Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19b941735">College Science Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d19f941735">College Technology Building</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d197941735">College Administrative Building</subCategory>
+    <subCategory ID="4bf58dd8d48988d1af941735">College Auditorium</subCategory>
+    <subCategory ID="4bf58dd8d48988d1b1941735">College Bookstore</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a1941735">College Cafeteria</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a0941735">College Classroom</subCategory>
+    <subCategory ID="4bf58dd8d48988d1b2941735">College Gym</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a5941735">College Lab</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a7941735">College Library</subCategory>
+    <subCategory ID="4bf58dd8d48988d1aa941735">College Quad</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a9941735">College Rec Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a3941735">College Residence Hall</subCategory>
+    <subCategory ID="4bf58dd8d48988d1b4941735">
+      College Stadium
+      <subSubCategory ID="4bf58dd8d48988d1bb941735">College Baseball Diamond</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1ba941735">College Basketball Court</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1b9941735">College Cricket Pitch</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1b8941735">College Football Field</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1b5941735">College Hockey Rink</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1b7941735">College Soccer Field</subSubCategory>
+      <subSubCategory ID="4e39a9cebd410d7aed40cbc4">College Tennis Court</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1b6941735">College Track</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1ac941735">College Theater</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a2941735">Community College</subCategory>
+    <subCategory ID="4bf58dd8d48988d1b0941735">Fraternity House</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a8941735">General College &amp; University</subCategory>
+    <subCategory ID="4bf58dd8d48988d1a6941735">Law School</subCategory>
+    <subCategory ID="4bf58dd8d48988d1b3941735">Medical School</subCategory>
+    <subCategory ID="4bf58dd8d48988d141941735">Sorority House</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ab941735">Student Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ad941735">Trade School</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ae941735">University</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06373d81259">
+    Event
+    <subCategory ID="52f2ab2ebcbc57f1066b8b3b">Christmas Market</subCategory>
+    <subCategory ID="5267e4d9e4b0ec79466e48c6">Conference</subCategory>
+    <subCategory ID="5267e4d9e4b0ec79466e48c9">Convention</subCategory>
+    <subCategory ID="5267e4d9e4b0ec79466e48c7">Festival</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1fa">Line / Queue</subCategory>
+    <subCategory ID="5267e4d9e4b0ec79466e48d1">Music Festival</subCategory>
+    <subCategory ID="5267e4d9e4b0ec79466e48c8">Other Event</subCategory>
+    <subCategory ID="52741d85e4b0d5d1e3c6a6d9">Parade</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89c5">Sporting Event</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b54">Stoop Sale</subCategory>
+    <subCategory ID="5267e4d8e4b0ec79466e48c5">Street Fair</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89c3">Trade Fair</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06374d81259">
+    Food
+    <subCategory ID="503288ae91d4c4b30a586d67">Afghan Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c8941735">
+      African Restaurant
+      <subSubCategory ID="4bf58dd8d48988d10a941735">Ethiopian Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d14e941735">
+      American Restaurant
+      <subSubCategory ID="4bf58dd8d48988d157941735">New American Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d142941735">
+      Asian Restaurant
+      <subSubCategory ID="56aa371be4b08b9a8d573568">Burmese Restaurant</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a03">Cambodian Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d145941735">Chinese Restaurant</subSubCategory>
+      <subSubCategory ID="4eb1bd1c3b7b55596b4a748f">Filipino Restaurant</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b79fb">Himalayan Restaurant</subSubCategory>
+      <subSubCategory ID="52af0bd33cf9994f4e043bdd">Hotpot Restaurant</subSubCategory>
+      <subSubCategory ID="4deefc054765f83613cdba6f">Indonesian Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d111941735">Japanese Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d113941735">Korean Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d156941735">Malay Restaurant</subSubCategory>
+      <subSubCategory ID="4eb1d5724b900d56c88a45fe">Mongolian Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1d1941735">Noodle House</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57350e">Satay Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d149941735">Thai Restaurant</subSubCategory>
+      <subSubCategory ID="52af39fb3cf9994f4e043be9">Tibetan Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d14a941735">Vietnamese Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d169941735">Australian Restaurant</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a01">Austrian Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1df931735">BBQ Joint</subCategory>
+    <subCategory ID="4bf58dd8d48988d179941735">Bagel Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d16a941735">Bakery</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a02">Belgian Restaurant</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79f1">Bistro</subCategory>
+    <subCategory ID="4bf58dd8d48988d143941735">Breakfast Spot</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a0c">Bubble Tea Shop</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79f4">Buffet</subCategory>
+    <subCategory ID="4bf58dd8d48988d16c941735">Burger Joint</subCategory>
+    <subCategory ID="4bf58dd8d48988d128941735">Cafeteria</subCategory>
+    <subCategory ID="4bf58dd8d48988d16d941735">Café</subCategory>
+    <subCategory ID="4bf58dd8d48988d17a941735">Cajun / Creole Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d144941735">
+      Caribbean Restaurant
+      <subSubCategory ID="4bf58dd8d48988d154941735">Cuban Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="5293a7d53cf9994f4e043a45">Caucasian Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e0931735">Coffee Shop</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a00">Comfort Food Restaurant</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79f2">Creperie</subCategory>
+    <subCategory ID="52f2ae52bcbc57f1066b8b81">Czech Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d146941735">Deli / Bodega</subCategory>
+    <subCategory ID="4bf58dd8d48988d1d0941735">
+      Dessert Shop
+      <subSubCategory ID="4bf58dd8d48988d1bc941735">Cupcake Shop</subSubCategory>
+      <subSubCategory ID="512e7cae91d4cbb4e5efe0af">Frozen Yogurt Shop</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1c9941735">Ice Cream Shop</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4e2">Pastry Shop</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a0a">Pie Shop</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d147941735">Diner</subCategory>
+    <subCategory ID="4bf58dd8d48988d148941735">Donut Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d108941735">Dumpling Restaurant</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4d0">Dutch Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d109941735">
+      Eastern European Restaurant
+      <subSubCategory ID="52e928d0bcbc57f1066b7e97">Belarusian Restaurant</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1ee">Bosnian Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734f3">Bulgarian Restaurant</subSubCategory>
+      <subSubCategory ID="52960bac3cf9994f4e043ac4">Romanian Restaurant</subSubCategory>
+      <subSubCategory ID="52e928d0bcbc57f1066b7e98">Tatar Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a05">English Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d10b941735">Falafel Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d16e941735">Fast Food Restaurant</subCategory>
+    <subCategory ID="4edd64a0c7ddd24ca188df1a">Fish &amp; Chips Shop</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a09">Fondue Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d120951735">Food Court</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57350b">Food Stand</subCategory>
+    <subCategory ID="4bf58dd8d48988d1cb941735">Food Truck</subCategory>
+    <subCategory ID="4bf58dd8d48988d10c941735">
+      French Restaurant
+      <subSubCategory ID="57558b36e4b065ecebd306b6">Alsatian Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306b8">Auvergne Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306bc">Basque Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306b0">Brasserie</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306c5">Breton Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306c0">Burgundian Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306cb">Catalan Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306ce">Ch'ti Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306d1">Corsican Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306b4">Estaminet</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306b2">Labour Canteen</subSubCategory>
+      <subSubCategory ID="57558b35e4b065ecebd306ad">Lyonese Bouchon</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306d4">Norman Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306d7">Provençal Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306da">Savoyard Restaurant</subSubCategory>
+      <subSubCategory ID="57558b36e4b065ecebd306ba">Southwestern French Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4d4ae6fc7a7b7dea34424761">Fried Chicken Joint</subCategory>
+    <subCategory ID="55d25775498e9f6a0816a37a">Friterie</subCategory>
+    <subCategory ID="4bf58dd8d48988d155941735">Gastropub</subCategory>
+    <subCategory ID="4bf58dd8d48988d10d941735">
+      German Restaurant
+      <subSubCategory ID="56aa371ce4b08b9a8d573583">Apple Wine Pub</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573572">Bavarian Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d57358e">Bratwurst Joint</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d57358b">Currywurst Joint</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573574">Franconian Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573592">German Pop-Up Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573578">Palatine Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d57357b">Rhenisch Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573587">Schnitzel Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d57357f">Silesian Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d573576">Swabian Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4c2cd86ed066bed06c3c5209">Gluten-free Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d10e941735">
+      Greek Restaurant
+      <subSubCategory ID="53d6c1b0e4b02351e88a83e8">Bougatsa Shop</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83e2">Cretan Restaurant</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83d8">Fish Taverna</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83d6">Grilled Meat Restaurant</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83e6">Kafenio</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83e4">Magirio</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83da">Meze Restaurant</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83d4">Modern Greek Restaurant</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83dc">Ouzeri</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83e0">Patsa Restaurant</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b79f3">Souvlaki Shop</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83d2">Taverna</subSubCategory>
+      <subSubCategory ID="53d6c1b0e4b02351e88a83de">Tsipouro Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79ff">Halal Restaurant</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79fe">
+      Hawaiian Restaurant
+      <subSubCategory ID="5bae9231bedf3950379f89d4">Poke Place</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d16f941735">Hot Dog Joint</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79fa">Hungarian Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d10f941735">
+      Indian Restaurant
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe5">Andhra Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff3">Awadhi Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff5">Bengali Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe2">Chaat Place</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff2">Chettinad Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe1">Dhaba</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe3">Dosa Place</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe8">Goan Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe9">Gujarati Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe6">Hyderabadi Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfdf">Indian Chinese Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe4">Indian Sweet Shop</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe7">Irani Cafe</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfea">Jain Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfeb">Karnataka Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfed">Kerala Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfee">Maharashtrian Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff4">Mughlai Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfe0">Multicuisine Indian Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfdd">North Indian Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff6">Northeast Indian Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfef">Parsi Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff0">Punjabi Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dff1">Rajasthani Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfde">South Indian Restaurant</subSubCategory>
+      <subSubCategory ID="54135bf5e4b08f3d2429dfec">Udupi Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a06">Irish Pub</subCategory>
+    <subCategory ID="4bf58dd8d48988d110941735">
+      Italian Restaurant
+      <subSubCategory ID="55a5a1ebe4b013909087cbb6">Abruzzo Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb7c">Agriturismo</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cba7">Aosta Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cba1">Basilicata Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cba4">Calabria Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb95">Campanian Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb89">Emilia Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb9b">Friuli Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb98">Ligurian Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbbf">Lombard Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb79">Malga</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbb0">Marche Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbb3">Molise Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb74">Piadineria</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbaa">Piedmontese Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb83">Puglia Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb8c">Romagna Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb92">Roman Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb8f">Sardinian Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb86">Sicilian Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbb9">South Tyrolean Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb7f">Trattoria/Osteria</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbbc">Trentino Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cb9e">Tuscan Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbc2">Umbrian Restaurant</subSubCategory>
+      <subSubCategory ID="55a5a1ebe4b013909087cbad">Veneto Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79fd">
+      Jewish Restaurant
+      <subSubCategory ID="52e81612bcbc57f1066b79fc">Kosher Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d112941735">Juice Bar</subCategory>
+    <subCategory ID="5283c7b4e4b094cb91ec88d7">Kebab Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1be941735">
+      Latin American Restaurant
+      <subSubCategory ID="4bf58dd8d48988d152941735">Arepa Restaurant</subSubCategory>
+      <subSubCategory ID="52939a8c3cf9994f4e043a35">Empanada Restaurant</subSubCategory>
+      <subSubCategory ID="5745c7ac498e5d0483112fdb">Salvadoran Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1cd941735">South American Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1bf941735">Mac &amp; Cheese Joint</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c0941735">
+      Mediterranean Restaurant
+      <subSubCategory ID="4bf58dd8d48988d1c3941735">Moroccan Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1c1941735">
+      Mexican Restaurant
+      <subSubCategory ID="58daa1558bbb0b01f18ec1d9">Botanero</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d153941735">Burrito Place</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d151941735">Taco Place</subSubCategory>
+      <subSubCategory ID="56aa371ae4b08b9a8d5734ba">Tex-Mex Restaurant</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4d3">Yucatecan Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d115941735">
+      Middle Eastern Restaurant
+      <subSubCategory ID="5bae9231bedf3950379f89e1">Egyptian Restaurant</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89e7">Iraqi Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573529">Israeli Restaurant</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4ca">Kurdish Restaurant</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1cd">Lebanese Restaurant</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b79f7">Persian Restaurant</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89e4">Shawarma Place</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89da">Syrian Restaurant</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89ea">Yemeni Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79f9">Modern European Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c2941735">Molecular Gastronomy Restaurant</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b79f8">Pakistani Restaurant</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573508">Pet Café</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ca941735">Pizza Place</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a04">Polish Restaurant</subCategory>
+    <subCategory ID="4def73e84765ae376e57713a">Portuguese Restaurant</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734c7">Poutine Place</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c4941735">Restaurant</subCategory>
+    <subCategory ID="5293a7563cf9994f4e043a44">
+      Russian Restaurant
+      <subSubCategory ID="52e928d0bcbc57f1066b7e9d">Blini House</subSubCategory>
+      <subSubCategory ID="52e928d0bcbc57f1066b7e9c">Pelmeni House</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1bd941735">Salad Place</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c5941735">Sandwich Place</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c6941735">Scandinavian Restaurant</subCategory>
+    <subCategory ID="5744ccdde4b0c0459246b4a3">Scottish Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ce941735">Seafood Restaurant</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57355a">Slovak Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1c7941735">Snack Place</subCategory>
+    <subCategory ID="4bf58dd8d48988d1dd931735">Soup Place</subCategory>
+    <subCategory ID="4bf58dd8d48988d14f941735">Southern / Soul Food Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d150941735">
+      Spanish Restaurant
+      <subSubCategory ID="4bf58dd8d48988d14d941735">Paella Restaurant</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1db931735">Tapas Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="5413605de4b0ae91d18581a9">Sri Lankan Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1cc941735">Steakhouse</subCategory>
+    <subCategory ID="4bf58dd8d48988d158941735">Swiss Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d1dc931735">Tea Room</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573538">Theme Restaurant</subCategory>
+    <subCategory ID="57558b36e4b065ecebd306dd">Truck Stop</subCategory>
+    <subCategory ID="4f04af1f2fb6e1c99f3db0bb">
+      Turkish Restaurant
+      <subSubCategory ID="530faca9bcbc57f1066bc2f3">Borek Place</subSubCategory>
+      <subSubCategory ID="530faca9bcbc57f1066bc2f4">Cigkofte Place</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88d8">Doner Restaurant</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88d9">Gozleme Place</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88db">Kofte Place</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88d6">Kokoreç Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573535">Kumpir Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734bd">Kumru Restaurant</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88d5">Manti Place</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88da">Meyhane</subSubCategory>
+      <subSubCategory ID="530faca9bcbc57f1066bc2f2">Pide Place</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1df">Pilavcı</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1dc">Söğüş Place</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734bf">Tantuni Restaurant</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734c1">Turkish Coffeehouse</subSubCategory>
+      <subSubCategory ID="5283c7b4e4b094cb91ec88d4">Turkish Home Cooking Restaurant</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1e2">Çöp Şiş Place</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e928d0bcbc57f1066b7e96">
+      Ukrainian Restaurant
+      <subSubCategory ID="52e928d0bcbc57f1066b7e9a">Varenyky restaurant</subSubCategory>
+      <subSubCategory ID="52e928d0bcbc57f1066b7e9b">West-Ukrainian Restaurant</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d1d3941735">Vegetarian / Vegan Restaurant</subCategory>
+    <subCategory ID="4bf58dd8d48988d14c941735">Wings Joint</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06376d81259">
+    Nightlife Spot
+    <subCategory ID="4bf58dd8d48988d116941735">
+      Bar
+      <subSubCategory ID="52e81612bcbc57f1066b7a0d">Beach Bar</subSubCategory>
+      <subSubCategory ID="56aa371ce4b08b9a8d57356c">Beer Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d117941735">Beer Garden</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a0e">Champagne Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11e941735">Cocktail Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d118941735">Dive Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1d8941735">Gay Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d119941735">Hookah Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1d5941735">Hotel Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d120941735">Karaoke Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11b941735">Pub</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11c941735">Sake Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1d4941735">Speakeasy</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11d941735">Sports Bar</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57354d">Tiki Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d122941735">Whisky Bar</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d123941735">Wine Bar</subSubCategory>
+    </subCategory>
+    <subCategory ID="50327c8591d4c4b30a586d5d">Brewery</subCategory>
+    <subCategory ID="4bf58dd8d48988d121941735">Lounge</subCategory>
+    <subCategory ID="53e510b7498ebcb1801b55d4">Night Market</subCategory>
+    <subCategory ID="4bf58dd8d48988d11f941735">Nightclub</subCategory>
+    <subCategory ID="4bf58dd8d48988d11a941735">Other Nightlife</subCategory>
+    <subCategory ID="4bf58dd8d48988d1d6941735">Strip Club</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06377d81259">
+    Outdoors &amp; Recreation
+    <subCategory ID="4f4528bc4b90abdf24c9de85">
+      Athletics &amp; Sports
+      <subSubCategory ID="52e81612bcbc57f1066b7a2b">Badminton Court</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e8941735">Baseball Field</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e1941735">Basketball Court</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a2f">Bowling Green</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57351a">Curling Ice</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e6941735">Golf Course</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1b0">Golf Driving Range</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d175941735">Gym / Fitness Center</subSubCategory>
+      <subSubCategory ID="4f452cd44b9081a197eba860">Hockey Field</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57352c">Hockey Rink</subSubCategory>
+      <subSubCategory ID="5032829591d4c4b30a586d5e">Paintball Field</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a2c">Rugby Pitch</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d167941735">Skate Park</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d168941735">Skating Rink</subSubCategory>
+      <subSubCategory ID="4cce455aebf7b749d5e191f5">Soccer Field</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a2e">Sports Club</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a2d">Squash Court</subSubCategory>
+      <subSubCategory ID="4e39a956bd410d7aed40cbc3">Tennis Court</subSubCategory>
+      <subSubCategory ID="4eb1bf013b7b6f98df247e07">Volleyball Court</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a28">Bathing Area</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573544">Bay</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e2941735">
+      Beach
+      <subSubCategory ID="52e81612bcbc57f1066b7a30">Nudist Beach</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1e3941735">Surf Spot</subSubCategory>
+    </subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57355e">Bike Trail</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a22">Botanical Garden</subCategory>
+    <subCategory ID="4bf58dd8d48988d1df941735">Bridge</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e4941735">Campground</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57353b">Canal Lock</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573562">Canal</subCategory>
+    <subCategory ID="50aaa49e4b90af0d42d5de11">Castle</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573511">Cave</subCategory>
+    <subCategory ID="4bf58dd8d48988d15c941735">Cemetery</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a12">Dive Spot</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e5941735">Dog Run</subCategory>
+    <subCategory ID="4bf58dd8d48988d15b941735">Farm</subCategory>
+    <subCategory ID="4bf58dd8d48988d15f941735">Field</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a0f">Fishing Spot</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a23">Forest</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573547">Fountain</subCategory>
+    <subCategory ID="4bf58dd8d48988d15a941735">Garden</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a11">Gun Range</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e0941735">Harbor / Marina</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89cd">Hill</subCategory>
+    <subCategory ID="4bf58dd8d48988d160941735">Hot Spring</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4b5">Indoor Play Area</subCategory>
+    <subCategory ID="50aaa4314b90af0d42d5de10">Island</subCategory>
+    <subCategory ID="4bf58dd8d48988d161941735">Lake</subCategory>
+    <subCategory ID="4bf58dd8d48988d15d941735">Lighthouse</subCategory>
+    <subCategory ID="55a5a1ebe4b013909087cb77">Mountain Hut</subCategory>
+    <subCategory ID="4eb1d4d54b900d56c88a45fc">Mountain</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a21">National Park</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a13">Nature Preserve</subCategory>
+    <subCategory ID="4bf58dd8d48988d162941735">Other Great Outdoors</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a14">Palace</subCategory>
+    <subCategory ID="4bf58dd8d48988d163941735">Park</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a25">Pedestrian Plaza</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e7941735">Playground</subCategory>
+    <subCategory ID="4bf58dd8d48988d164941735">Plaza</subCategory>
+    <subCategory ID="4bf58dd8d48988d15e941735">Pool</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a29">Rafting</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a26">Recreation Center</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573541">Reservoir</subCategory>
+    <subCategory ID="4eb1d4dd4b900d56c88a45fd">River</subCategory>
+    <subCategory ID="50328a4b91d4c4b30a586d6b">Rock Climbing Spot</subCategory>
+    <subCategory ID="4bf58dd8d48988d133951735">Roof Deck</subCategory>
+    <subCategory ID="4bf58dd8d48988d165941735">Scenic Lookout</subCategory>
+    <subCategory ID="4bf58dd8d48988d166941735">Sculpture Garden</subCategory>
+    <subCategory ID="4bf58dd8d48988d1e9941735">
+      Ski Area
+      <subSubCategory ID="4bf58dd8d48988d1ea941735">Apres Ski Bar</subSubCategory>
+      <subSubCategory ID="4eb1c0ed3b7b52c0e1adc2ea">Ski Chairlift</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1ec941735">Ski Chalet</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1eb941735">Ski Lodge</subSubCategory>
+      <subSubCategory ID="4eb1c0f63b7b52c0e1adc2eb">Ski Trail</subSubCategory>
+    </subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1b9">Skydiving Drop Zone</subCategory>
+    <subCategory ID="4eb1baf03b7b2c5b1d4306ca">Stables</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89d0">State / Provincial Park</subCategory>
+    <subCategory ID="530e33ccbcbc57f1066bbfe4">
+      States &amp; Municipalities
+      <subSubCategory ID="50aa9e094b90af0d42d5de0d">City</subSubCategory>
+      <subSubCategory ID="5345731ebcbc57f1066c39b2">County</subSubCategory>
+      <subSubCategory ID="530e33ccbcbc57f1066bbff7">Country</subSubCategory>
+      <subSubCategory ID="4f2a25ac4b909258e854f55f">Neighborhood</subSubCategory>
+      <subSubCategory ID="530e33ccbcbc57f1066bbff8">State</subSubCategory>
+      <subSubCategory ID="530e33ccbcbc57f1066bbff3">Town</subSubCategory>
+      <subSubCategory ID="530e33ccbcbc57f1066bbff9">Village</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a10">Summer Camp</subCategory>
+    <subCategory ID="4bf58dd8d48988d159941735">Trail</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a24">Tree</subCategory>
+    <subCategory ID="4bf58dd8d48988d1de941735">Vineyard</subCategory>
+    <subCategory ID="5032848691d4c4b30a586d61">Volcano</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573560">Waterfall</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734c3">Waterfront</subCategory>
+    <subCategory ID="4fbc1be21983fc883593e321">Well</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89c7">Windmill</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06375d81259">
+    Professional &amp; Other Places
+    <subCategory ID="4e52d2d203646f7c19daa8ae">Animal Shelter</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1d6">Art Studio</subCategory>
+    <subCategory ID="4bf58dd8d48988d173941735">Auditorium</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734cf">Ballroom</subCategory>
+    <subCategory ID="4bf58dd8d48988d130941735">Building</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573517">Business Center</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a35">Club House</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a34">Community Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ff931735">
+      Convention Center
+      <subSubCategory ID="4bf58dd8d48988d100941735">Meeting Room</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a32">Cultural Center</subCategory>
+    <subCategory ID="4e0e22f5a56208c4ea9a85a0">Distillery</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a37">Distribution Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d171941735">
+      Event Space
+      <subSubCategory ID="56aa371be4b08b9a8d57356a">Outdoor Event Space</subSubCategory>
+    </subCategory>
+    <subCategory ID="4eb1bea83b7b6f98df247e06">Factory</subCategory>
+    <subCategory ID="4eb1daf44b900d56c88a4600">Fair</subCategory>
+    <subCategory ID="4f4534884b9074f6e4fb0174">Funeral Home</subCategory>
+    <subCategory ID="4bf58dd8d48988d126941735">
+      Government Building
+      <subSubCategory ID="4bf58dd8d48988d12a941735">Capitol Building</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d129941735">City Hall</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12b941735">Courthouse</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12c951735">Embassy / Consulate</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12c941735">Fire Station</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12d941735">Monument / Landmark</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12e941735">Police Station</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a38">Town Hall</subSubCategory>
+    </subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734d7">Industrial Estate</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4d6">Laboratory</subCategory>
+    <subCategory ID="4bf58dd8d48988d12f941735">Library</subCategory>
+    <subCategory ID="4bf58dd8d48988d104941735">
+      Medical Center
+      <subSubCategory ID="52e81612bcbc57f1066b7a3b">Acupuncturist</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a3c">Alternative Healer</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a3a">Chiropractor</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d178941735">Dentist's Office</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d177941735">Doctor's Office</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d194941735">Emergency Room</subSubCategory>
+      <subSubCategory ID="522e32fae4b09b556e370f19">Eye Doctor</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d196941735">Hospital</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734ff">Maternity Clinic</subSubCategory>
+      <subSubCategory ID="4f4531b14b9074f6e4fb0103">Medical Lab</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a39">Mental Health Office</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1d0">Nutritionist</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4af">Physical Therapist</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57351d">Rehab Center</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573526">Urgent Care Center</subSubCategory>
+      <subSubCategory ID="4d954af4a243a5684765b473">Veterinarian</subSubCategory>
+    </subCategory>
+    <subCategory ID="4e52adeebd41615f56317744">Military Base</subCategory>
+    <subCategory ID="50328a8e91d4c4b30a586d6c">Non-Profit</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4d9">Observatory</subCategory>
+    <subCategory ID="4bf58dd8d48988d124941735">
+      Office
+      <subSubCategory ID="52e81612bcbc57f1066b7a3d">Advertising Agency</subSubCategory>
+      <subSubCategory ID="5032764e91d4c4b30a586d5a">Campaign Office</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d127941735">Conference Room</subSubCategory>
+      <subSubCategory ID="5665ef1d498ec706735f0e59">Corporate Amenity</subSubCategory>
+      <subSubCategory ID="54f4ba06498e2cf5561da814">Corporate Cafeteria</subSubCategory>
+      <subSubCategory ID="5665c7b9498e7d8a4f2c0f06">Corporate Coffee Shop</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d174941735">Coworking Space</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d125941735">Tech Startup</subSubCategory>
+    </subCategory>
+    <subCategory ID="4c38df4de52ce0d596b336e1">Parking</subCategory>
+    <subCategory ID="4bf58dd8d48988d172941735">Post Office</subCategory>
+    <subCategory ID="58daa1548bbb0b01f18ec1a9">Power Plant</subCategory>
+    <subCategory ID="5310b8e5bcbc57f1066bcbf1">Prison</subCategory>
+    <subCategory ID="5032856091d4c4b30a586d63">Radio Station</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b57">Recruiting Agency</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1b2">Research Station</subCategory>
+    <subCategory ID="4bf58dd8d48988d13b941735">
+      School
+      <subSubCategory ID="56aa371ce4b08b9a8d573570">Adult Education Center</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a43">Circus School</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec200">Cooking School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a42">Driving School</subSubCategory>
+      <subSubCategory ID="4f4533804b9074f6e4fb0105">Elementary School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a49">Flight School</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d13d941735">High School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a48">Language School</subSubCategory>
+      <subSubCategory ID="4f4533814b9074f6e4fb0106">Middle School</subSubCategory>
+      <subSubCategory ID="4f04b10d2fb6e1c99f3db0be">Music School</subSubCategory>
+      <subSubCategory ID="4f4533814b9074f6e4fb0107">Nursery School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a45">Preschool</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a46">Private School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a47">Religious School</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a44">Swim School</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a33">Social Club</subCategory>
+    <subCategory ID="4bf58dd8d48988d131941735">
+      Spiritual Center
+      <subSubCategory ID="52e81612bcbc57f1066b7a3e">Buddhist Temple</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1eb">Cemevi</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d132941735">Church</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734fc">Confucian Temple</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a3f">Hindu Temple</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4ac">Kingdom Hall</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a40">Monastery</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d138941735">Mosque</subSubCategory>
+      <subSubCategory ID="52e81612bcbc57f1066b7a41">Prayer Room</subSubCategory>
+      <subSubCategory ID="4eb1d80a4b900d56c88a45ff">Shrine</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89c9">Sikh Temple</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d139941735">Synagogue</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d13a941735">Temple</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734f6">Terreiro</subSubCategory>
+    </subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a31">TV Station</subCategory>
+    <subCategory ID="4cae28ecbf23941eb1190695">Voting Booth</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a36">Warehouse</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1ac">Waste Facility</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734c5">Wedding Hall</subCategory>
+    <subCategory ID="4bf58dd8d48988d14b941735">Winery</subCategory>
+  </mainCategory>
+  <mainCategory ID="4e67e38e036454776db1fb3a">
+    Residence
+    <subCategory ID="5032891291d4c4b30a586d68">Assisted Living</subCategory>
+    <subCategory ID="4bf58dd8d48988d103941735">Home (private)</subCategory>
+    <subCategory ID="4f2a210c4b9023bd5841ed28">Housing Development</subCategory>
+    <subCategory ID="4d954b06a243a5684965b473">Residential Building (Apartment / Condo)</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b55">Trailer Park</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06378d81259">
+    Shop &amp; Service
+    <subCategory ID="52f2ab2ebcbc57f1066b8b56">ATM</subCategory>
+    <subCategory ID="5267e446e4b0ec79466e48c4">Adult Boutique</subCategory>
+    <subCategory ID="4bf58dd8d48988d116951735">Antique Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d127951735">Arts &amp; Crafts Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b43">Astrologer</subCategory>
+    <subCategory ID="4eb1c1623b7b52c0e1adc2ec">Auto Dealership</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b44">Auto Garage</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734d3">Auto Workshop</subCategory>
+    <subCategory ID="4bf58dd8d48988d124951735">Automotive Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b32">Baby Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d10a951735">Bank</subCategory>
+    <subCategory ID="52e81612bcbc57f1066b7a27">Bath House</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d5734cb">Batik Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b40">Betting Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b42">Big Box Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d115951735">Bike Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f1941735">Board Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d114951735">Bookstore</subCategory>
+    <subCategory ID="4bf58dd8d48988d11a951735">Bridal Shop</subCategory>
+    <subCategory ID="5453de49498eade8af355881">Business Service</subCategory>
+    <subCategory ID="4eb1bdf03b7b55596b4a7491">Camera Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d117951735">Candy Store</subCategory>
+    <subCategory ID="4f04ae1f2fb6e1c99f3db0ba">Car Wash</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2a">Carpet Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2d">Check Cashing Service</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4c7">
+      Child Care Service
+      <subSubCategory ID="4f4532974b9074f6e4fb0104">Daycare</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b31">Chocolate Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d103951735">
+      Clothing Store
+      <subSubCategory ID="4bf58dd8d48988d102951735">Accessories Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d104951735">Boutique</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d105951735">Kids Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d109951735">Lingerie Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d106951735">Men's Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d107951735">Shoe Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d108951735">Women's Store</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b18">Comic Shop</subCategory>
+    <subCategory ID="5454144b498ec1f095bff2f2">Construction &amp; Landscaping</subCategory>
+    <subCategory ID="4d954b0ea243a5684a65b473">Convenience Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d10c951735">Cosmetics Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b17">Costume Shop</subCategory>
+    <subCategory ID="5032850891d4c4b30a586d62">Credit Union</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4be">Currency Exchange</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f6941735">Department Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f4941735">Design Studio</subCategory>
+    <subCategory ID="52dea92d3cf9994f4e043dbb">Discount Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1a">Dive Shop</subCategory>
+    <subCategory ID="5745c2e4498e11e7bccabdbd">Drugstore</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1d">Dry Cleaner</subCategory>
+    <subCategory ID="5032872391d4c4b30a586d64">EV Charging Station</subCategory>
+    <subCategory ID="4bf58dd8d48988d122951735">Electronics Store</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573554">Entertainment Service</subCategory>
+    <subCategory ID="5454152e498ef71e2b9132c6">Event Service</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b26">Fabric Shop</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573523">Film Studio</subCategory>
+    <subCategory ID="503287a291d4c4b30a586d65">Financial or Legal Service</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b3a">Fireworks Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b16">Fishing Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f7941735">Flea Market</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573505">Floating Market</subCategory>
+    <subCategory ID="4bf58dd8d48988d11b951735">Flower Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f9941735">
+      Food &amp; Drink Shop
+      <subSubCategory ID="5370f356bcbc57f1066c94c2">Beer Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11d951735">Butcher</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d11e951735">Cheese Shop</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1ca">Dairy Store</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1fa941735">Farmers Market</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d10e951735">Fish Market</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573550">Food Service</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1f5941735">Gourmet Shop</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d118951735">Grocery Store</subSubCategory>
+      <subSubCategory ID="50aa9e744b90af0d42d5de0e">Health Food Store</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1e8">Kuruyemişçi</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d186941735">Liquor Store</subSubCategory>
+      <subSubCategory ID="52f2ab2ebcbc57f1066b8b45">Organic Grocery</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d573564">Sausage Shop</subSubCategory>
+      <subSubCategory ID="53e0feef498e5aac066fd8a9">Street Food Gathering</subSubCategory>
+      <subSubCategory ID="52f2ab2ebcbc57f1066b8b46">Supermarket</subSubCategory>
+      <subSubCategory ID="58daa1558bbb0b01f18ec1e5">Turşucu</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d119951735">Wine Shop</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b24">Frame Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1c">Fruit &amp; Vegetable Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f8941735">
+      Furniture / Home Store
+      <subSubCategory ID="55888a5a498e782e3303b43a">Lighting Store</subSubCategory>
+    </subCategory>
+    <subCategory ID="4bf58dd8d48988d18d941735">Gaming Cafe</subCategory>
+    <subCategory ID="4eb1c0253b7b52c0e1adc2e9">Garden Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d113951735">Gas Station</subCategory>
+    <subCategory ID="4bf58dd8d48988d128951735">Gift Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b19">Gun Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d112951735">Hardware Store</subCategory>
+    <subCategory ID="54541900498ea6ccd0202697">Health &amp; Beauty Service</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2c">Herbs &amp; Spices Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fb941735">Hobby Shop</subCategory>
+    <subCategory ID="545419b1498ea6ccd0202f58">Home Service</subCategory>
+    <subCategory ID="50aaa5234b90af0d42d5de12">Hunting Supply</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b36">IT Services</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1f1">Insurance Office</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f0941735">Internet Cafe</subCategory>
+    <subCategory ID="4bf58dd8d48988d111951735">Jewelry Store</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1b4">Kitchen Supply Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b25">Knitting Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b33">Laundromat</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fc941735">Laundry Service</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b3f">Lawyer</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2b">Leather Goods Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1e">Locksmith</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b38">Lottery Retailer</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b29">Luggage Store</subCategory>
+    <subCategory ID="52c71aaf3cf9994f4e043d17">Marijuana Dispensary</subCategory>
+    <subCategory ID="50be8ee891d4fa8dcc7199a7">Market</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b3c">Massage Studio</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b27">Mattress Store</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec206">Medical Supply Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ff941735">Miscellaneous Shop</subCategory>
+    <subCategory ID="4f04afc02fb6e1c99f3db0bc">Mobile Phone Shop</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57354a">Mobility Store</subCategory>
+    <subCategory ID="5032833091d4c4b30a586d60">Motorcycle Shop</subCategory>
+    <subCategory ID="59d79d6b2e268052fa2a3332">Motorsports Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fe941735">Music Store</subCategory>
+    <subCategory ID="4f04aa0c2fb6e1c99f3db0b8">Nail Salon</subCategory>
+    <subCategory ID="4f04ad622fb6e1c99f3db0b9">Newsstand</subCategory>
+    <subCategory ID="5ae95d208a6f17002ce792b2">Notary</subCategory>
+    <subCategory ID="4d954afda243a5684865b473">Optical Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2f">Other Repair Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b22">Outdoor Supply Store</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4df">Outlet Mall</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b35">Outlet Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d121951735">Paper / Office Supplies Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b34">Pawn Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b23">Perfume Shop</subCategory>
+    <subCategory ID="5032897c91d4c4b30a586d69">Pet Service</subCategory>
+    <subCategory ID="4bf58dd8d48988d100951735">Pet Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d10f951735">Pharmacy</subCategory>
+    <subCategory ID="4eb1bdde3b7b55596b4a7490">Photography Lab</subCategory>
+    <subCategory ID="554a5e17498efabeda6cc559">Photography Studio</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b20">Piercing Parlor</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b3d">Pop-Up Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b28">Print Shop</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4c4">Public Bathroom</subCategory>
+    <subCategory ID="5032885091d4c4b30a586d66">Real Estate Office</subCategory>
+    <subCategory ID="4bf58dd8d48988d10d951735">Record Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b37">Recording Studio</subCategory>
+    <subCategory ID="4f4531084b9074f6e4fb0101">Recycling Facility</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573552">Rental Service</subCategory>
+    <subCategory ID="4bf58dd8d48988d110951735">Salon / Barbershop</subCategory>
+    <subCategory ID="58daa1558bbb0b01f18ec1ae">Sauna / Steam Room</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1f">Shipping Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b39">Shoe Repair</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fd941735">Shopping Mall</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4dc">Shopping Plaza</subCategory>
+    <subCategory ID="5bae9231bedf3950379f89d2">Skate Shop</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d573566">Ski Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d123951735">Smoke Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b41">Smoothie Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b1b">Souvenir Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ed941735">Spa</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f2941735">Sporting Goods Shop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b21">Stationery Store</subCategory>
+    <subCategory ID="4f04b1572fb6e1c99f3db0bf">Storage Facility</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4cd">Supplement Shop</subCategory>
+    <subCategory ID="5032781d91d4c4b30a586d5b">Tailor Shop</subCategory>
+    <subCategory ID="4d1cf8421a97d635ce361c31">Tanning Salon</subCategory>
+    <subCategory ID="4bf58dd8d48988d1de931735">Tattoo Parlor</subCategory>
+    <subCategory ID="4bf58dd8d48988d101951735">Thrift / Vintage Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f3941735">Toy / Game Store</subCategory>
+    <subCategory ID="4f04b08c2fb6e1c99f3db0bd">Travel Agency</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b30">Used Bookstore</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57355c">Vape Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d10b951735">Video Game Store</subCategory>
+    <subCategory ID="4bf58dd8d48988d126951735">Video Store</subCategory>
+    <subCategory ID="52e816a6bcbc57f1066b7a54">Warehouse Store</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b2e">Watch Shop</subCategory>
+  </mainCategory>
+  <mainCategory ID="4d4b7105d754a06379d81259">
+    Travel &amp; Transport
+    <subCategory ID="4bf58dd8d48988d1ed931735">
+      Airport
+      <subSubCategory ID="4bf58dd8d48988d1ef931735">Airport Food Court</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1f0931735">Airport Gate</subSubCategory>
+      <subSubCategory ID="4eb1bc533b7b2c5b1d4306cb">Airport Lounge</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d57352f">Airport Service</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1eb931735">Airport Terminal</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1ec931735">Airport Tram</subSubCategory>
+      <subSubCategory ID="5744ccdfe4b0c0459246b4e5">Baggage Claim</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1f7931735">Plane</subSubCategory>
+    </subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4e8">Baggage Locker</subCategory>
+    <subCategory ID="4e4c9077bd41f78e849722f9">Bike Rental / Bike Share</subCategory>
+    <subCategory ID="5744ccdfe4b0c0459246b4c1">Boat Rental</subCategory>
+    <subCategory ID="4bf58dd8d48988d12d951735">Boat or Ferry</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4b">Border Crossing</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fe931735">
+      Bus Station
+      <subSubCategory ID="4bf58dd8d48988d12b951735">Bus Line</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4f">Bus Stop</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b50">Cable Car</subCategory>
+    <subCategory ID="55077a22498e5e9248869ba2">Cruise</subCategory>
+    <subCategory ID="589ddde98ae3635c072819ee">Duty-free Shop</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f6931735">General Travel</subCategory>
+    <subCategory ID="56aa371ce4b08b9a8d57356e">Heliport</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fa931735">
+      Hotel
+      <subSubCategory ID="4bf58dd8d48988d1f8931735">Bed &amp; Breakfast</subSubCategory>
+      <subSubCategory ID="4f4530a74b9074f6e4fb0100">Boarding House</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1ee931735">Hostel</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d132951735">Hotel Pool</subSubCategory>
+      <subSubCategory ID="5bae9231bedf3950379f89cb">Inn</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d1fb931735">Motel</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12f951735">Resort</subSubCategory>
+      <subSubCategory ID="56aa371be4b08b9a8d5734e1">Vacation Rental</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4c">Intersection</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fc931735">Light Rail Station</subCategory>
+    <subCategory ID="4bf58dd8d48988d1fd931735">Metro Station</subCategory>
+    <subCategory ID="4f2a23984b9023bd5841ed2c">Moving Target</subCategory>
+    <subCategory ID="4e74f6cabd41c4836eac4c31">Pier</subCategory>
+    <subCategory ID="56aa371be4b08b9a8d57353e">Port</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b53">RV Park</subCategory>
+    <subCategory ID="4bf58dd8d48988d1ef941735">Rental Car Location</subCategory>
+    <subCategory ID="4d954b16a243a5684b65b473">Rest Area</subCategory>
+    <subCategory ID="4bf58dd8d48988d1f9931735">Road</subCategory>
+    <subCategory ID="53fca564498e1a175f32528b">Taxi Stand</subCategory>
+    <subCategory ID="4bf58dd8d48988d130951735">Taxi</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4d">Toll Booth</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4e">Toll Plaza</subCategory>
+    <subCategory ID="4f4530164b9074f6e4fb00ff">Tourist Information Center</subCategory>
+    <subCategory ID="4bf58dd8d48988d129951735">
+      Train Station
+      <subSubCategory ID="4f4531504b9074f6e4fb0102">Platform</subSubCategory>
+      <subSubCategory ID="4bf58dd8d48988d12a951735">Train</subSubCategory>
+    </subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b51">Tram Station</subCategory>
+    <subCategory ID="54541b70498ea6ccd0204bff">Transportation Service</subCategory>
+    <subCategory ID="4f04b25d2fb6e1c99f3db0c0">Travel Lounge</subCategory>
+    <subCategory ID="52f2ab2ebcbc57f1066b8b4a">Tunnel</subCategory>
+  </mainCategory>
+</Root>
