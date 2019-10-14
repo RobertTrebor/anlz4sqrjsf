@@ -2,15 +2,15 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:p="http://primefaces.org/ui">
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
 <h:head>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGD--lZwMfq1NWVxtRSRH85Qu5vxUj-_M"
 			type="text/javascript"></script>
 </h:head>
 
+<f:event listener="#{basicBean.onStart()}" type="preRenderView"/>
 <h:body>
 	<p:layout fullPage="true">
 		<p:layoutUnit position="north" size="400">
@@ -49,14 +49,19 @@
 
 		<p:layoutUnit position="east" size="200">
 			<h:outputText value="Right Content" />
+			<h:form>
+			<h:commandLink action="#{basicBean.connect()}" value="connect" />
+			</h:form>
+			<p:commandButton action="#{basicBean.loadResult()}" update="venuetable" />
+			<p:commandButton action="#{basicBean.loadHistory()}" update="venuetable" />
 		</p:layoutUnit>
 
-		<p:layoutUnit position="center">
+		<p:layoutUnit position="center" >
 			<h:outputText value="Venue List" />
 			<p:panel id="venuetable">
 				<h:form id="venuetableform">
-					#{basicBean.loadResult()}
-					<p:dataTable var="venue" value="#{basicBean.venues}"
+					<!--#{basicBean.loadResult()}-->
+					<p:dataTable var="venue" value="#{basicBean.venues}" rendered="#{basicBean.view == 0}"
 								 rowKey="#{venue.name}" paginator="true" rows="15"
 								 selection="#{basicBean.selectedVenue}" selectionMode="single">
 
@@ -74,6 +79,26 @@
 
 						<p:column headerText="City" sortBy="city" filterBy="city" id="titlecity">
 							#{venue.location.city}
+						</p:column>
+					</p:dataTable>
+
+					<p:dataTable var="history" value="#{basicBean.venueHistories}" rendered="#{basicBean.view == 1}"
+								 rowKey="#{venueHistory.venue}" paginator="true" rows="15">
+
+						<p:column headerText="Checkins" sortBy="Checkins" filterBy="name" >
+							#{history.beenHere}
+						</p:column>
+
+						<p:column headerText="Name" sortBy="name" filterBy="name" >
+							#{history.venue.name}
+						</p:column>
+
+						<p:column headerText="Address" sortBy="address" filterBy="address">
+							#{history.venue.location.address}
+						</p:column>
+
+						<p:column headerText="City" sortBy="city" filterBy="city" >
+							#{history.venue.location.city}
 						</p:column>
 					</p:dataTable>
 
@@ -130,7 +155,7 @@
 			<h:outputText value="Query: "></h:outputText>
 			<h:inputText value="#{basicBean.query}"></h:inputText>
 
-			<p:commandButton actionListener="#{basicBean.loadResult}"
+			<p:commandButton actionListener="#{basicBean.update()}"
 				value="View Venues" update=":venuetable" />
 		</h:form>
 	</p:panel>

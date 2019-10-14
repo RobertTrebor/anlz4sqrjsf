@@ -8,10 +8,9 @@ import fi.foyt.foursquare.api.FoursquareApi;
 import fi.foyt.foursquare.api.io.DefaultIOHandler;
 
 import java.io.IOException;
-import java.util.Scanner;
 import java.util.concurrent.ExecutionException;
 
-public class FSConnect implements FSConnector {
+public class FSConnectWeb implements FSConnector {
 
 	private final String ID = ConnectProp.get("id");
 	private final String SECRET = ConnectProp.get("secret");
@@ -20,23 +19,17 @@ public class FSConnect implements FSConnector {
 	private OAuth20Service service;
 
 	private static FSConnector instance = null;
-	private FoursquareApi foursquareApi = null;
+	private FoursquareApi foursquareApi;
 
-	private FSConnect() {
-		String authToken = authorize();
-		if(authToken != "") {
-			foursquareApi = new FoursquareApi(ID, SECRET, CALLBACK, authToken, new DefaultIOHandler());
-		} else {
-			foursquareApi = new FoursquareApi(ID, SECRET, CALLBACK);
-		}
+	private FSConnectWeb() {
+		foursquareApi = new FoursquareApi(ID, SECRET, CALLBACK);
 	}
 
-	public String authorize() {
+	public String authorize(){
 		service = new ServiceBuilder(ID)
 				.apiSecret(SECRET)
 				.callback(CALLBACK)
 				.build(Foursquare2Api.instance());
-		final Scanner in = new Scanner(System.in);
 
 		System.out.println("=== Foursquare2's OAuth Workflow ===");
 		System.out.println();
@@ -44,27 +37,20 @@ public class FSConnect implements FSConnector {
 		// Obtain the Authorization URL
 		System.out.println("Fetching the Authorization URL...");
 		final String authorizationUrl = service.getAuthorizationUrl();
-		System.out.println("Got the Authorization URL!");
-		System.out.println("Now go and authorize ScribeJava here:");
 		System.out.println(authorizationUrl);
-		System.out.println("And paste the authorization code here");
-		System.out.print(">>");
-		final String code = in.nextLine();
-		System.out.println();
-		return authorizeToken(code);
+		return authorizationUrl;
 	}
 
-
-	public String authorizeToken(String code){
-		System.out.println("Trading the Authorization Code for an Access Token...");
+	public String authorizeToken(String code) {
 		final OAuth2AccessToken accessToken;
-		String authToken = "";
+		String token = "";
 		try {
 			accessToken = service.getAccessToken(code);
+			token = accessToken.getAccessToken();
 			System.out.println("Got the Access Token!");
 			System.out.println("(The raw response looks like this: " + accessToken.getRawResponse() + "')");
 			System.out.println();
-			authToken = accessToken.getAccessToken();
+			foursquareApi = new FoursquareApi(ID, SECRET, CALLBACK, token, new DefaultIOHandler());
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
@@ -72,12 +58,13 @@ public class FSConnect implements FSConnector {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
-		return authToken;
+
+		return token;
 	}
 
 	public static FSConnector getInstance() {
 		if (instance == null) {
-			instance = new FSConnect();
+			instance = new FSConnectWeb();
 		}
 		return instance;
 	}

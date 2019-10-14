@@ -1,13 +1,14 @@
 package de.lengsfeld.anlz4sqr;
 
 import de.lengsfeld.anlz4sqr.connect.FSConnect;
+import de.lengsfeld.anlz4sqr.connect.FSConnector;
 
 import java.awt.*;
 
 public class Anlz4Sqr {
 
 	public static void main(String[] args) {
-		FSConnect fsConnect = FSConnect.getInstance();
+		FSConnector fsConnect = FSConnect.getInstance();
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {

@@ -6,13 +6,11 @@ import fi.foyt.foursquare.api.Result;
 import fi.foyt.foursquare.api.entities.*;
 
 import java.util.Date;
-import java.util.concurrent.Future;
 
 public final class FSManager {
 
-	Future response = null;
-	FSConnect fs = FSConnect.getInstance();
-	FoursquareApi foursquareApi;
+	private FSConnector fs = FSConnect.getInstance();
+	private FoursquareApi foursquareApi;
 
 	public FSManager() {
 		foursquareApi = fs.getFoursquareApi();
