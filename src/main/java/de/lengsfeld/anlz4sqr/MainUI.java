@@ -1,46 +1,24 @@
 package de.lengsfeld.anlz4sqr;
 
-import java.awt.BorderLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
-import java.awt.Insets;
+import de.lengsfeld.anlz4sqr.connect.ConnectVenueCategories;
+import de.lengsfeld.anlz4sqr.connect.FSManager;
+import de.lengsfeld.anlz4sqr.model.*;
+import de.lengsfeld.anlz4sqr.xml.XMLWriter;
+import fi.foyt.foursquare.api.Result;
+import fi.foyt.foursquare.api.entities.Category;
+import fi.foyt.foursquare.api.entities.CheckinGroup;
+import fi.foyt.foursquare.api.entities.VenueHistoryGroup;
+import fi.foyt.foursquare.api.entities.VenuesSearchResult;
+
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.DefaultMutableTreeNode;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.JTree;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.tree.DefaultMutableTreeNode;
-
-import de.lengsfeld.anlz4sqr.connect.FSManager;
-import de.lengsfeld.anlz4sqr.connect.ConnectVenueCategories;
-import de.lengsfeld.anlz4sqr.model.AddressView;
-import de.lengsfeld.anlz4sqr.model.CompleteView;
-import de.lengsfeld.anlz4sqr.model.FlexibleCategoriesTableModel;
-import de.lengsfeld.anlz4sqr.model.FlexibleTableModel;
-import de.lengsfeld.anlz4sqr.model.FlexibleView;
-import de.lengsfeld.anlz4sqr.model.MyAbstractTableModel;
-import de.lengsfeld.anlz4sqr.model.StatsView;
-import de.lengsfeld.anlz4sqr.model.TableView;
-import de.lengsfeld.anlz4sqr.model.TableViewStrategy;
-import de.lengsfeld.anlz4sqr.model.VenueView;
-import de.lengsfeld.anlz4sqr.xml.XMLWriter;
-import fi.foyt.foursquare.api.Result;
-import fi.foyt.foursquare.api.entities.Category;
-import fi.foyt.foursquare.api.entities.VenuesSearchResult;
 
 public class MainUI {
 
@@ -48,6 +26,8 @@ public class MainUI {
 	private JTable table;
 	private Result<VenuesSearchResult> result = null;
 	private Result<Category[]> resultCategories = null;
+	private CheckinGroup resultCheckins = null;
+	private Result<VenueHistoryGroup> resultHistory = null;
 	private MyAbstractTableModel model;
 	private JTextField tfLatitude;
 	private JTextField tfLongitude;
@@ -123,8 +103,43 @@ public class MainUI {
 		});
 		panel.add(btnXML);
 
-		JButton btnNewButton_2 = new JButton("New button");
-		panel.add(btnNewButton_2);
+		JButton btnNewButtonFriends = new JButton("Friends");
+		btnNewButtonFriends.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Friends");
+				new FSManager().friends();
+			}
+		});
+		panel.add(btnNewButtonFriends);
+
+		JButton btnCheckins = new JButton("Checkins");
+		btnCheckins.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("Checkins");
+				resultCheckins = new FSManager().checkins();
+				TableView tv = new TableView(new CheckinView());
+				currentTableView = (CheckinView) tv.getView();
+				table.setModel(new CheckinsTableModel(resultCheckins, currentTableView
+						.tableView()));
+			}
+		});
+		panel.add(btnCheckins);
+
+		JButton btnHistory = new JButton("History");
+		btnHistory.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("History");
+				resultHistory = new FSManager().venueHistory();
+				TableView tv = new TableView(new HistoryView());
+				currentTableView = (HistoryView) tv.getView();
+				table.setModel(new HistoryTableModel(resultHistory, currentTableView
+						.tableView()));
+			}
+		});
+		panel.add(btnHistory);
 
 		JPanel panel_1 = new JPanel();
 		frame.getContentPane().add(panel_1, BorderLayout.WEST);

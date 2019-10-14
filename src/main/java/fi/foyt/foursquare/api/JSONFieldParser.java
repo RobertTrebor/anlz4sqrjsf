@@ -11,6 +11,10 @@
 
 package fi.foyt.foursquare.api;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -19,10 +23,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  * Class responsible of parsing API responses
@@ -135,11 +135,11 @@ public class JSONFieldParser {
           }
         } else {
           try {
-            if(!objectFieldName.equals("icon")) {
+            //if(!objectFieldName.equals("icon") && !objectFieldName.equals("photo") && !objectFieldName.equals("like")) {
               setEntityFieldValue(entity, objectFieldName, parseValue(fieldClass, jsonObject, objectFieldName, skipNonExistingFields));
-            }
+            //}
           } catch (JSONException e) {
-            throw new FoursquareApiException(e);
+            //throw new FoursquareApiException(e);
           }
         }
       }

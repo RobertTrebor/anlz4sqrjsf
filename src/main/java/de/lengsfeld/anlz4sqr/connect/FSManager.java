@@ -3,11 +3,14 @@ package de.lengsfeld.anlz4sqr.connect;
 import fi.foyt.foursquare.api.FoursquareApi;
 import fi.foyt.foursquare.api.FoursquareApiException;
 import fi.foyt.foursquare.api.Result;
-import fi.foyt.foursquare.api.entities.CompactVenue;
-import fi.foyt.foursquare.api.entities.VenuesSearchResult;
+import fi.foyt.foursquare.api.entities.*;
+
+import java.util.Date;
+import java.util.concurrent.Future;
 
 public final class FSManager {
 
+	Future response = null;
 	FSConnect fs = FSConnect.getInstance();
 	FoursquareApi foursquareApi;
 
@@ -57,4 +60,49 @@ public final class FSManager {
 		}
 		return result;
 	}
+
+	public Result<UserGroup> friends() {
+		Result<UserGroup> result = null;
+		try {
+			result = foursquareApi.usersFriends("self");
+			for (CompactUser compactUser : result.getResult().getItems()){
+				System.out.println(compactUser.getFirstName() + compactUser.getLastName());
+			}
+		} catch (FoursquareApiException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	public CheckinGroup checkins() {
+		CheckinGroup result = null;
+		try {
+			result = foursquareApi.user("self").getResult().getCheckins();
+			for(Checkin checkin : result.getItems()){
+				System.out.println(checkin.getVenue().getName());
+				CompactUser compactUser = checkin.getUser();
+				if(compactUser != null){
+					String name = compactUser.getLastName();
+				}
+				checkin.getVenue().getName();
+				checkin.getVenue().getLocation().getCity();
+				checkin.getCreatedAt();
+				checkin.getLocation();
+			}
+		} catch (FoursquareApiException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	public Result<VenueHistoryGroup> venueHistory() {
+		Result<VenueHistoryGroup> result = null;
+		try {
+			result = foursquareApi.usersVenueHistory("self", new Date().getTime(), 0L);
+		} catch (FoursquareApiException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
 }
