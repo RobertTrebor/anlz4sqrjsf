@@ -5,15 +5,21 @@ import fi.foyt.foursquare.api.FoursquareApiException;
 import fi.foyt.foursquare.api.Result;
 import fi.foyt.foursquare.api.entities.*;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public final class FSManager {
 
-	private FSConnector fs = FSConnect.getInstance();
 	private FoursquareApi foursquareApi;
 
 	public FSManager() {
-		foursquareApi = fs.getFoursquareApi();
+		FSConnector fs = FSConnect.getInstance();
+		this.foursquareApi = fs.getFoursquareApi();
+	}
+
+	public FSManager(FoursquareApi foursquareApi) {
+		this.foursquareApi = foursquareApi;
 	}
 
 	public Result<VenuesSearchResult> collectVenues(String ll, String query,
@@ -101,6 +107,17 @@ public final class FSManager {
 			e.printStackTrace();
 		}
 		return result;
+	}
+
+	public List<Checkin> checkinHistory(){
+		List<Checkin> list = null;
+		try {
+			Result<CheckinGroup> result = foursquareApi.usersCheckins("self", 10, 0,0L, new Date().getTime());
+			list = Arrays.asList(result.getResult().getItems());
+		} catch (FoursquareApiException e) {
+			e.printStackTrace();
+		}
+		return list;
 	}
 
 }

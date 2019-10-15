@@ -3,13 +3,13 @@ package de.lengsfeld.anlz4sqr.beans;
 import de.lengsfeld.anlz4sqr.connect.FSConnectWeb;
 import de.lengsfeld.anlz4sqr.connect.FSConnector;
 import de.lengsfeld.anlz4sqr.connect.FSManager;
+import de.lengsfeld.anlz4sqr.service.CompactVenueService;
+import de.lengsfeld.anlz4sqr.service.LocationService;
+import de.lengsfeld.anlz4sqr.service.VenueHistoryService;
 import fi.foyt.foursquare.api.Result;
-import fi.foyt.foursquare.api.entities.CompactVenue;
-import fi.foyt.foursquare.api.entities.VenueHistory;
-import fi.foyt.foursquare.api.entities.VenueHistoryGroup;
-import fi.foyt.foursquare.api.entities.VenuesSearchResult;
+import fi.foyt.foursquare.api.entities.*;
 
-import javax.enterprise.context.SessionScoped;
+import javax.enterprise.context.RequestScoped;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -22,10 +22,22 @@ import java.util.List;
 import java.util.Map;
 
 @Named
-@SessionScoped
+@RequestScoped
 public class BasicBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
+
+	@Inject
+	private Form form;
+
+	@Inject
+	private LocationService locationService;
+
+	@Inject
+	private CompactVenueService compactVenueService;
+
+	@Inject
+	private VenueHistoryService venueHistoryService;
 
 	@Inject
 	private MapBean mapBean;
@@ -33,17 +45,8 @@ public class BasicBean implements Serializable {
 	@Inject
 	private CategoriesController categoriesController;
 
-	private FSManager fsManager = new FSManager();
+	private FSManager fsManager = new FSManager(FSConnectWeb.getInstance().getFoursquareApi());
 	private FSConnector fsConnect = FSConnectWeb.getInstance();
-
-	private List<CompactVenue> venues;
-	private List<VenueHistory> venueHistories;
-	private CompactVenue selectedVenue;
-	private Integer view = 0;
-
-	private String coordinates;
-	private String query;
-	private String category;
 
 	public BasicBean() {
 		System.setProperty("java.net.useSystemProxies", "true");
@@ -67,93 +70,97 @@ public class BasicBean implements Serializable {
 		}
     }
 
-	public void loadResult() {
-		category = categoriesController.getCategoryId();
-		if (category == "0000"){
-			category = "";
-		}
-		System.out.print("BasicBean.java - category: " + category);
-		coordinates = mapBean.getCoordinates();
-		System.out.println("\t coordinates");
-		try {
-			if(view == 0){
-				Result<VenuesSearchResult> result = fsManager.draw3(coordinates, query,
-						category);
-				venues = Arrays.asList(result.getResult().getVenues());
-				setVenues(venues);
-				setView(0);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+    public void load(){
+		form.setView(0);
+		update();
+	}
 
+	public void loadResult() {
+        if(form.getView() == 0) {
+			form.setCategory(categoriesController.getCategoryId());
+			if (form.getCategory() == "0000") {
+				form.setCategory("");
+			}
+			System.out.print("BasicBean.java - category: " + form.getCategory());
+			form.setCoordinates(mapBean.getCoordinates());
+			System.out.println("\t coordinates");
+			Result<VenuesSearchResult> result = fsManager.draw3(form.getCoordinates(), form.getQuery(),
+					form.getCategory());
+			form.setVenues(Arrays.asList(result.getResult().getVenues()));
+		}
 	}
 
 	public void loadHistory(){
-		setView(1);
+		form.setView(1);
 		Result<VenueHistoryGroup> result = fsManager.venueHistory();
 		if(result != null) {
 			VenueHistoryGroup venueHistoryGroup = result.getResult();
 			venueHistoryGroup.getCount();
-			venueHistories = Arrays.asList(venueHistoryGroup.getItems());
-			setVenueHistories(venueHistories);
+			form.setVenueHistories(Arrays.asList(venueHistoryGroup.getItems()));
 		}
 	}
 
 	public void update(){
-		if(view == 0){
-			loadResult();
-		} else {
-			loadHistory();
+	    int view = form.getView();
+		switch(view){
+            case 0:
+                loadResult();
+                break;
+            case 1:
+                loadHistory();
+                break;
+            case 2:
+                loadFromDb();
+                break;
+			case 3:
+				loadCheckins();
+				break;
+        }
+	}
+
+	public void save(){
+        for(VenueHistory venueHistory : form.getVenueHistories()) {
+            CompactVenue compactVenue = venueHistory.getVenue();
+            Location location = compactVenue.getLocation();
+            de.lengsfeld.anlz4sqr.entity.Location loc = new de.lengsfeld.anlz4sqr.entity.Location();
+            loc.setAddress(location.getAddress());
+            loc.setCity(location.getCity());
+            loc.setCountry(location.getCountry());
+            loc.setLat(location.getLat());
+            loc.setLng(location.getLng());
+            loc.setPostalCode(location.getPostalCode());
+            locationService.create(loc);
+            loc = locationService.find(loc.getId());
+
+            de.lengsfeld.anlz4sqr.entity.CompactVenue cv = new de.lengsfeld.anlz4sqr.entity.CompactVenue();
+            cv.setLocation(loc);
+            cv.setName(compactVenue.getName());
+            cv.setUrl(compactVenue.getUrl());
+            compactVenueService.create(cv);
+            cv = compactVenueService.find(cv.getId());
+
+            de.lengsfeld.anlz4sqr.entity.VenueHistory vh = new de.lengsfeld.anlz4sqr.entity.VenueHistory();
+            vh.setBeenHere(venueHistory.getBeenHere());
+            vh.setVenue(cv);
+            venueHistoryService.create(vh);
+            vh = venueHistoryService.find(vh.getId());
+        }
+	}
+
+	public void loadFromDb(){
+	    form.setView(2);
+	    List<de.lengsfeld.anlz4sqr.entity.VenueHistory> venueHistories = venueHistoryService.createNamedQuery("Venue.findAll");
+	    form.setVenueHistoriesDb(venueHistories);
+    }
+
+    public void loadCheckins(){
+		form.setView(3);
+		List<Checkin> checkins = fsManager.checkinHistory();
+		for(Checkin checkin : checkins){
+			Long l = checkin.getCreatedAt();
+			String name = checkin.getVenue().getName();
 		}
-	}
-
-	public String getQuery() {
-		return query;
-	}
-
-	public void setQuery(String query) {
-		this.query = query;
-	}
-
-	public List<CompactVenue> getVenues() {
-		return venues;
-	}
-
-	public void setVenues(List<CompactVenue> venues) {
-		this.venues = venues;
-	}
-
-	public List<VenueHistory> getVenueHistories() {
-		return venueHistories;
-	}
-
-	public void setVenueHistories(List<VenueHistory> venueHistories) {
-		this.venueHistories = venueHistories;
-	}
-
-	public CompactVenue getSelectedVenue() {
-		if(selectedVenue != null) {
-			System.out.println(selectedVenue.getName());
-			System.out.println(selectedVenue.getLocation().getCity());
-			System.out.println(selectedVenue.getLocation().getCountry());
-			System.out.println(selectedVenue.getLocation().getCrossStreet());
-			selectedVenue.getHereNow().getCount();
-			System.out.println();
-		}
-		return selectedVenue;
-	}
-
-	public void setSelectedVenue(CompactVenue selectedVenue) {
-		this.selectedVenue = selectedVenue;
-	}
-
-	public Integer getView() {
-		return view;
-	}
-
-	public void setView(Integer view) {
-		this.view = view;
+		form.setCheckins(checkins);
 	}
 
 }
