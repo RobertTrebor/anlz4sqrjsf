@@ -131,7 +131,11 @@
 					</p:dataTable>
 
 					<p:dataTable var="checkins" value="#{form.checkins}" rendered="#{form.view == 3}"
+                                 selectionMode="single" selection="#{form.selectedCheckin}"
 								 rowKey="#{checkins.id}" paginator="true" rows="15">
+
+                        <p:ajax event="rowSelect" update=":venuetableform:checkingDlg" listener="#{basicBean.retrieveComment()}"
+                                oncomplete="PF('checkinDialog').show();" />
 
 						<p:column headerText="Id" sortable="true" sortBy="#{checkins.id}"
 								  filterBy="#{checkins.id}"  >
@@ -187,6 +191,33 @@
 
 						</h:panelGrid>
 					</p:dialog>
+
+                    <p:dialog id="checkingDlg" header="Checkin Details" widgetVar="checkinDialog"
+                              resizable="false" width="400" showEffect="explode"
+                              hideEffect="explode">
+
+                        <h:panelGrid id="checkinDlgPanel" columns="2" cellpadding="4">
+
+                            <f:facet name="header">
+                            </f:facet>
+
+                            <h:outputText value="ID:" />
+                            <h:outputText value="#{form.selectedCheckin.id}" />
+
+                            <h:outputText value="Address:" />
+                            <h:outputText value="#{form.selectedCheckin.venue.location.address}"/>
+
+                            <h:outputText value="Zip:" />
+                            <h:outputText value="#{form.selectedCheckin.venue.location.postalCode}"/>
+
+                            <h:outputText value="City:" />
+                            <h:outputText value="#{form.selectedCheckin.venue.location.city}" />
+
+                            <h:outputText value="Comment:" />
+                            <h:outputText value="#{form.selectedComment}" />
+
+                        </h:panelGrid>
+                    </p:dialog>
 
 				</h:form>
 			</p:panel>

@@ -120,4 +120,28 @@ public final class FSManager {
 		return list;
 	}
 
+	public void postComment(String id) throws FoursquareApiException {
+	    if(id.equals("5da30eaf120e640007e1a067")) {
+            Result<Comment> resultC = foursquareApi.checkinsAddComment(id, "FS-Hi");
+        }
+	    String text = retrieveComments(id);
+    }
+
+    public String retrieveComments(String id) throws FoursquareApiException {
+		Result<Checkin> result = foursquareApi.checkin(id, "");
+		Checkin checkin = result.getResult();
+		String text = "";
+		if(checkin != null && checkin.getComments() != null && checkin.getComments().getItems() != null) {
+			List<Comment> comments = Arrays.asList(checkin.getComments().getItems());
+
+			for (Comment comment : comments) {
+				if(comment.getText() != null) {
+					text += comment.getText();
+				}
+			}
+			System.out.println(text);
+		}
+		return text;
+	}
+
 }
