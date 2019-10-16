@@ -127,19 +127,32 @@ public final class FSManager {
 	    String text = retrieveComments(id);
     }
 
-    public String retrieveComments(String id) throws FoursquareApiException {
+	public Checkin retrieveCompleteCheckin(String id) throws FoursquareApiException {
 		Result<Checkin> result = foursquareApi.checkin(id, "");
-		Checkin checkin = result.getResult();
-		String text = "";
-		if(checkin != null && checkin.getComments() != null && checkin.getComments().getItems() != null) {
-			List<Comment> comments = Arrays.asList(checkin.getComments().getItems());
+		return result.getResult();
+	}
 
-			for (Comment comment : comments) {
-				if(comment.getText() != null) {
-					text += comment.getText();
-				}
-			}
-			System.out.println(text);
+    public String retrieveComments(String id) throws FoursquareApiException {
+		Checkin checkin = retrieveCompleteCheckin(id);
+		String text = "";
+		if(checkin != null){
+		    if(checkin.getComments() != null && checkin.getComments().getItems() != null){
+		        List<Comment> comments = Arrays.asList(checkin.getComments().getItems());
+                for (Comment comment : comments) {
+                    if(comment.getText() != null) {
+                        if(comment.getUser() != null){
+                            text += comment.getUser().getFirstName() + ": ";
+                        }
+                        text += comment.getText() + "; ";
+                    }
+                }
+                System.out.println(text);
+            }
+            if(checkin.getPhotos() != null){
+                PhotoGroup photoGroup = checkin.getPhotos();
+                Long count = photoGroup.getCount();
+                List<Photo> photos = Arrays.asList(photoGroup.getItems());
+            }
 		}
 		return text;
 	}
