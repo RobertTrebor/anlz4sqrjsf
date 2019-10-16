@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+
+    <changeSet id="0.0.1-setup" author="rl">
+        <createTable tableName="location">
+            <column name="id" type="bigint" autoIncrement="true" startWith="1000">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK_LOCATION_ID"/>
+            </column>
+            <column name="address" type="varchar(255)"/>
+            <column name="city" type="varchar(255)"/>
+            <column name="postalCode" type="varchar(255)"/>
+            <column name="country" type="varchar(255)"/>
+            <column name="name" type="varchar(255)"/>
+            <column name="lat" type="double"/>
+            <column name="lng" type="double"/>
+        </createTable>
+        <rollback>
+            <delete tableName="location"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="0.0.1-setup-2" author="rl">
+        <createTable tableName="CompactVenue">
+            <column name="id" type="bigint" autoIncrement="true" startWith="1000">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK_COMPACT_VENUE_ID"/>
+            </column>
+            <column name="name" type="varchar(255)"/>
+            <column name="location_id" type="bigint"/>
+            <column name="url" type="varchar(255)"/>
+        </createTable>
+
+        <rollback>
+            <delete tableName="CompactVenue"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="0.0.1-setup-fk" author="rl">
+        <addForeignKeyConstraint baseTableName="CompactVenue" baseColumnNames="location_id" constraintName="FK_LOCATION_ID"
+                                 referencedTableName="location" referencedColumnNames="id"/>
+
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="CompactVenue" constraintName="FK_LOCATION_ID"/>
+        </rollback>
+    </changeSet>
+
+    <changeSet id="0.0.1-setup-3" author="rl">
+        <createTable tableName="VenueHistory">
+            <column name="id" type="bigint" autoIncrement="true" startWith="1000">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="PK_VENUE_HISTORY_ID"/>
+            </column>
+            <column name="beenHere" type="integer"/>
+            <column name="venue_id" type="bigint"/>
+        </createTable>
+        <rollback>
+            <delete tableName="VenueHistory"/>
+        </rollback>
+    </changeSet>
+
+
+    <changeSet id="0.0.1-setup-fk2" author="rl">
+        <addForeignKeyConstraint baseTableName="VenueHistory" baseColumnNames="venue_id" constraintName="FK_COMPACT_VENUE_ID"
+                                 referencedTableName="CompactVenue" referencedColumnNames="id"/>
+
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="VenueHistory" constraintName="FK_COMPACT_VENUE_ID"/>
+        </rollback>
+    </changeSet>
+
+
+
+</databaseChangeLog>

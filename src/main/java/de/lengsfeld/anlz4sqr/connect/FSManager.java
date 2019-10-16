@@ -5,15 +5,21 @@ import fi.foyt.foursquare.api.FoursquareApiException;
 import fi.foyt.foursquare.api.Result;
 import fi.foyt.foursquare.api.entities.*;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public final class FSManager {
 
-	private FSConnector fs = FSConnect.getInstance();
 	private FoursquareApi foursquareApi;
 
 	public FSManager() {
-		foursquareApi = fs.getFoursquareApi();
+		FSConnector fs = FSConnect.getInstance();
+		this.foursquareApi = fs.getFoursquareApi();
+	}
+
+	public FSManager(FoursquareApi foursquareApi) {
+		this.foursquareApi = foursquareApi;
 	}
 
 	public Result<VenuesSearchResult> collectVenues(String ll, String query,
@@ -101,6 +107,54 @@ public final class FSManager {
 			e.printStackTrace();
 		}
 		return result;
+	}
+
+	public List<Checkin> checkinHistory(){
+		List<Checkin> list = null;
+		try {
+			Result<CheckinGroup> result = foursquareApi.usersCheckins("self", 10, 0,0L, new Date().getTime());
+			list = Arrays.asList(result.getResult().getItems());
+		} catch (FoursquareApiException e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+
+	public void postComment(String id) throws FoursquareApiException {
+	    if(id.equals("5da30eaf120e640007e1a067")) {
+            Result<Comment> resultC = foursquareApi.checkinsAddComment(id, "FS-Hi");
+        }
+	    String text = retrieveComments(id);
+    }
+
+	public Checkin retrieveCompleteCheckin(String id) throws FoursquareApiException {
+		Result<Checkin> result = foursquareApi.checkin(id, "");
+		return result.getResult();
+	}
+
+    public String retrieveComments(String id) throws FoursquareApiException {
+		Checkin checkin = retrieveCompleteCheckin(id);
+		String text = "";
+		if(checkin != null){
+		    if(checkin.getComments() != null && checkin.getComments().getItems() != null){
+		        List<Comment> comments = Arrays.asList(checkin.getComments().getItems());
+                for (Comment comment : comments) {
+                    if(comment.getText() != null) {
+                        if(comment.getUser() != null){
+                            text += comment.getUser().getFirstName() + ": ";
+                        }
+                        text += comment.getText() + "; ";
+                    }
+                }
+                System.out.println(text);
+            }
+            if(checkin.getPhotos() != null){
+                PhotoGroup photoGroup = checkin.getPhotos();
+                Long count = photoGroup.getCount();
+                List<Photo> photos = Arrays.asList(photoGroup.getItems());
+            }
+		}
+		return text;
 	}
 
 }
